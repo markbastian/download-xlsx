@@ -4,6 +4,6 @@ I'm trying to understand why, when running this app, you can correctly download 
 
 To run it:
 
- * Load project.clj as lein project
- * Load deps.edn as Clojure tools deps project
+ * Load project.clj as lein project and check out ns download-xlsx.core.
+ * Load deps.edn as Clojure tools deps project and check out ns download-xlsx.core.
  * Execute `clj -m run-jetty` to just run it. Will start the app and launch in a browser.
